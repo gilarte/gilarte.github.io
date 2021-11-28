@@ -1,0 +1,66 @@
+<html> 
+<form action="ex4.html" method="post">
+    <fieldset style="width: 500; border-color: blue;" >
+        <h1>Reservation Quest</h1>
+        <fieldset style="width: 500;">
+       <legend style="color: blue;">General information</legend>
+        <table>
+            <tr>
+                <td>Arrival Date:</td>
+                <td><input name="Date" size="10" type="date"/><br/></td>
+            </tr>
+            <tr>
+                <td>Nights:</td>
+                <td><input name="Nights" type="text"/><br/></td>
+            </tr>
+            <tr>
+                <td>Children:</td>
+                <td><input type="number"/><br/></td>
+            </tr>
+            <tr>
+                <td>Adults</td>
+                <td><input name="Adults" type="number"></td><br/>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="width: 500;">
+        <legend style="color: blue;">Preference</legend>
+        <table style="width: 500;">
+            <tr>
+                <td>Room type:</td>
+                <td><input type="radio" /> Standard</td>
+                <td><input type="radio" /> Business</td>
+                <td><input type="radio" /> Suite</td>
+            </tr>
+            <tr>
+                <td>Bed type:</td>
+                <td><input type="radio" />King</td>
+                <td><input type="radio" />Double Double</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" /> Smoking</td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="width: 500;">
+        <legend style="color: blue;">Contact information</legend>
+        <table style="width: 500;">
+            <tr>
+                <td>Nombre:</td>
+                <td><input name="text" size="10" type="text"/><br/></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input name="Email" type="email"/><br/></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text"/><br/></td>
+            </tr>
+        </table>
+    </fieldset>
+        <input type="submit" value="submit Reservation">
+        <input type="reset" value="Clear">
+    </fieldset>
+    </form>
+</html>
